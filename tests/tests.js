@@ -120,6 +120,14 @@ var tests = {
             assert.equal(topic, '2 seconds');
         }
     },
+    'timer should work with milliseconds': {
+        topic: function() {
+            return timethat.calc(1262336400000, 1262336400150);
+        },
+        'should print': function(topic) {
+            assert.equal(topic, '0.15 seconds');
+        }
+    },
 };
 
 

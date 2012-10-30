@@ -10,7 +10,7 @@
         "jshint": "~0.9.0"
     },
     "keywords": [
-        "timer", "time calc", "from time"
+        "timer", "time calc", "from time", "elapsed time", "elapsed"
     ],
     "main": "./lib/timethat.js",
     "scripts": {
