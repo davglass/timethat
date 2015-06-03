@@ -18,12 +18,7 @@
         "test": "istanbul cover --print both vows -- --spec ./tests/*.js"
     },
     "bugs": { "url" : "http://github.com/davglass/timethat/issues" },
-    "licenses":[
-        {
-            "type" : "BSD",
-            "url" : "https://github.com/davglass/timethat/blob/master/LICENSE"
-        }
-    ],
+    "license": "BSD-3-Clause",
     "repository": {
         "type":"git",
         "url":"http://github.com/davglass/timethat.git"
